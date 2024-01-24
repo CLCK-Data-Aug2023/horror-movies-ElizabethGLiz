@@ -71,7 +71,7 @@ def main() -> None:
     conn = create_connection(path_to_db)
     sql = get_sql(path_to_sql)
     
-    if sql == "-- Add your SQL here" or sql == "":
+    if sql == " Add your sql here" or sql == "":
         print("Error: Add your sql to the sql/horror_movies.sql file before running.")
         exit(1)
     
